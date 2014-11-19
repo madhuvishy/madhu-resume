@@ -1,0 +1,130 @@
+% vim:foldmethod=marker commentstring=%%%s
+% license {{{
+% This work is licensed under the Creative Commons
+% Attribution-NonCommercial-ShareAlike License. To view a copy of this license,
+% visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to
+% Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+% This file is adapted from Todd Courtesan's resume, at
+% http://www.courtesan.com/todd/resume.html
+% }}}
+% preamble {{{
+\documentclass[letterpaper]{article}
+\usepackage{main}
+\hypersetup{hidelinks}
+\setlength{\oddsidemargin}{-0.75in}
+\setlength{\evensidemargin}{-0.75in}
+\setlength{\textwidth}{8in}
+\setlength{\topmargin}{-0.75in}
+\setlength{\textheight}{10.5in}
+% }}}
+\begin{document}
+% Header
+\resheader{Madhumitha Viswanathan}
+          {http://madhuvishy.in/}
+          {me@madhuvishy.in\hspace{0.5in}}
+          {(908) 494-0482}
+          {772 9th Avenue. \#4N}
+          {New York, NY 10019}
+          
+
+% Experience
+\resheading{Experience}
+\begin{itemize}
+    % Hacker School
+    \item \resshortsubheading{Student at Hacker School, New York, NY}{Feb--April, Sept--Nov 2014}\vspace{6pt} \linebreak
+        \small{Participated twice in a \href{http://hackerschool.com}{three month collaborative professional learning experience for programmers}, primarily focusing on functional programming in Clojure. Projects I worked on include:}\normalsize\vspace{-6pt}
+        \begin{itemize}
+            \resitem{Contributed to \href{https://github.com/hackerschool/community}{Community}, Hacker School's discussion forum, built interface for \href{https://github.com/hackerschool/community/commits?author=madhuvishy}{search with autocompletion}, in \href{https://github.com/swannodette/om}{Om/Clojurescript}.} 
+            \resitem{Distributed \href{https://github.com/madhuvishy/term-frequency-zmq}{term frequency counter} using \href{http://zeromq.org/}{ZeroMQ messaging system} in Python.}
+            \resitem{A \href{https://github.com/madhuvishy/yobc}{bittorrent client}, the \href{https://github.com/madhuvishy/chainreact-clj}{game Chain Reaction}, and a \href{https://github.com/madhuvishy/zulip-focus}{command line bot} for \href{http://zulip.com}{Zulip}, in Clojure.}
+        \end{itemize}
+        
+    %BMK Solutions
+    \item \resshortsubheading{Software Developer(Remote) at BMK Solutions LLC, Detroit, MI}{February 2012 -- January 2014}
+        \begin{itemize}
+            \resitem{Designed and developed Java web applications and web services for a leading automobile manufacturer in the US.}  
+            \resitem{Worked with frameworks - JAX-RS and GWT based Vaadin on multiple projects.} 
+        \end{itemize}
+        
+    %GSOC
+    \item \resshortsubheading{Google Summer of Code Intern at Gnome Foundation}{May 2011 - August 2011}
+        \begin{itemize}
+            \resitem{Integrated Google Tasks, Google Calendar and Tracks backend support for Gnome task manager app, GTG.}
+            \resitem{Added two-way sync between GTG and the external backends to allow viewing all tasks and appointments at one place.}                  \resitem{The frontend for the plugins were built in pyGtk and the sync backends using python and external REST API's.} 
+        \end{itemize}
+\end{itemize}
+
+
+% Projects
+
+\resheading{Projects}
+    \begin{itemize}
+    
+        % HedgeMantra
+        \item \resshortsubheading{HedgeMantra (\url{https://hedgemantra.com})}{March 2013 -- August 2013} \vspace{6pt} \linebreak
+            \small{Designed and developed Flask based web application, HedgeMantra, a subscription based service that projects cash flows for different foreign exchange hedging options taking into account live data from the National Stock Exchange India, and future spot rate predictions from Reuters.}\normalsize\vspace{-6pt}
+            
+        % Facebook Open group logger
+        \item \resshortsubheading{Facebook Open Group logger (\url{http://github.com/madhuvishy/facebook-group-log})}{September 2012} \vspace{6pt} \linebreak
+            \small{Python script that uses Facebook Graph API to archive posts from Open groups, and post useful links to bookmarking site, Kippt.}\normalsize\vspace{-6pt}
+            
+        % Chennai Geeks Website
+        \item \resshortsubheading{Chennai Geeks website (\url{http://github.com/chennaigeeks/chennaigeeks})}{December 2012 -- January 2013} \vspace{6pt} \linebreak
+            \small{Python-Flask based website that uses archived facebook post data from the Chennai Geeks community's open group on facebook, and \linebreak allows searching for content, and viewing top posts based on likes and comments, and top contributors in the group.}\normalsize\vspace{-6pt}
+        
+         % Arduino Bot
+        \item \resshortsubheading{Arduino Powered Weather Bot}{December 2011 -- March 2012} \vspace{6pt} \linebreak
+            \small{An Arduino powered weather bot that relays ground weather data to a webserver. Built an SMS API and a twitter client to allow users to
+            \linebreak get instant weather updates from a specific location.}\normalsize
+
+\end{itemize}
+
+% Hackathons and Awards
+\resheading{Hackathons and Awards}
+\begin{itemize}
+    % NodeKnockout
+    \item \resshortsubheading{NodeKnockOut}{November 2013} \vspace{6pt}         
+        \linebreak
+        \small{Listed 34th in the top apps for building Fantasy Tweet League, a head to head fantasy sports game that uses popularity on twitter \linebreak to award players points.}\normalsize\vspace{-6pt}
+     % FFOS
+    \item \resshortsubheading{Firefox OS App Hackathon Bangalore}{January 2013} \vspace{6pt}         
+        \linebreak
+        \small{Built BrowseWithMe, a NodeJS based real-time collaborative browser for multiple users, and was declared winning team.}\normalsize\vspace{-6pt}
+    % GADC
+    \item \resshortsubheading{Google Apps Developer Challenge}{August 2012 -- October 2012} \vspace{6pt}         
+        \linebreak
+        \small{Won first place in India region for building \href{http://makkarlabs.in/badgeit}{BadgeIt}, a web app that helps generate and print conference badges with ease.}\normalsize
+\end{itemize}
+
+% Education
+\resheading{Education}
+\begin{itemize}
+    % Undergrad
+    \item \resshortsubheading{SSN College of Engineering, Chennai, India}{August 2008--May 2012}
+        \begin{itemize}
+            \resitem{B.Tech in Information Technology with Overall GPA: 3.38}
+            \resitem{Awarded merit scholarships for securing top rank in a class of 120 for I and II years.}
+        \end{itemize}
+    \end{itemize}
+
+% Talks
+\resheading{Talks}
+\begin{description}
+    % TEDx
+    \item[\hspace{12pt}TEDxThoraipakkam 2014, Chennai:] \small{Speaker at \href{http://tedxtpkm.com}{TEDxThoraipakkam} 2014, an indepently organized TEDx event in Chennai.}\normalsize\vspace{-6pt}
+    % DevfestW
+    \item[\hspace{12pt}GDG DevFest Women 2013, Chennai:] \small{Talk on why and how women can get into programming and open source development.}\normalsize\vspace{-6pt}
+    % Desktop Summit
+    \item[\hspace{12pt}Gnome Desktop Summit 2011, Berlin:] \small{Lightning talk on integrating GTG with Google Tasks and other online task managers.}\normalsize
+    
+\end{description}
+
+% }}}
+% Skills {{{
+\resheading{Skills}
+\begin{description}
+    \item[\hspace{12pt}Languages/Frameworks:] \small{Clojure, Clojurescript, Python, Java, Javascript, HTML/CSS, Om, Flask}\normalsize\vspace{-6pt}
+    \item[\hspace{12pt}Tools:] \small{vim, git, Eclipse}\normalsize
+\end{description}
+% }}}
+\end{document}
